@@ -13,5 +13,6 @@ for (nb = 0; nb <= 9; nb++)
 {
 putchar('0' + nb);
 }
+putchar('\n');
 return (0);
 }
