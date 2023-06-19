@@ -1,3 +1,10 @@
+/**
+ * main - Entry point of the program
+ *
+ * This program assign to print the alphabet in lowercase and uppercase
+ *
+ * Return: Always 0 (indicating success)
+ */
 #include<stdio.h>
 /**
  * main - Entry point of the program
