@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * main - Entry point of the program
+ *
+ * This program assign to print all the single digit numbers
+ *
+ * Return: Always 0 (indicating success)
+ */
+int main(void)
+{
+int nb;
+for (nb = 0; nb <= 9; nb++)
+{
+putchar('0' + nb);
+}
+return (0);
+}
