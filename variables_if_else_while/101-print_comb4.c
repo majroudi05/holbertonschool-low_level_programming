@@ -7,7 +7,7 @@
 int main(void)
 {
 int nb1, nb2, nb3;
-for (nb1 = 0; nb1 <= 2; nb++)
+for (nb1 = 0; nb1 <= 2; nb1++)
 {
 for (nb2 = nb1 + 1; nb2 <= 2; nb2++)
 {
