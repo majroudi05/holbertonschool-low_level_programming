@@ -15,12 +15,13 @@ for (nb2 = nb1 + 1; nb2 <= 9; nb2++)
 {
 putchar('0' + nb1);
 putchar('0' + nb2);
-if(nb1 < 8)
+if (nb1 < 8)
 {
 putchar(',');
 putchar(' ');
 }
 }
 }
+putchar('\n');
 return (0);
 }
