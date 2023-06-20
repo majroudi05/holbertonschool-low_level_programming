@@ -17,7 +17,7 @@ for (nb = 0; nb < 16 ; nb++)
 {
 if (nb < 10)
 {
-putchar(nb);
+putchar('0' + nb);
 }
 else
 {
