@@ -17,7 +17,7 @@ if (nb < 9)
 putchar(',');
 putchar(' ');
 }
-putchar(' ');
 }
+putchar(' ');
 return (0);
 }
