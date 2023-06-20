@@ -15,8 +15,8 @@ putchar('0' + nb);
 if (nb < 9)
 {
 putchar(',');
-}
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
