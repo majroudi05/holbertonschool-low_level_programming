@@ -16,9 +16,14 @@ for (nb3 = nb2 + 1; nb3 <= 9; nb3++)
 putchar('0' + nb1);
 putchar('0' + nb2);
 putchar('0' + nb3);
+if (nb1 < 7)
+{
 putchar (',');
+putchar(' ');
 }
 }
 }
+}
+putchar('\n');
 return (0);
 }
