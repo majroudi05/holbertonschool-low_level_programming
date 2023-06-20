@@ -8,14 +8,15 @@
 **/
 int main(void)
 {
-int nb1, nb2;
-for (nb1 = 0 ; nb1 <= 9 ; nb1++)
+int nb;
+for (nb = 0 ; nb <= 9 ; nb++)
 {
-for (nb2 = 0 ; nb2 <= 9 ; nb2++)
+putchar('0' + nb);
+if (nb < 9)
 {
-putchar(nb1 + nb2);
-}
 putchar(',');
+putchar(' ');
+}
 }
 return (0);
 }
