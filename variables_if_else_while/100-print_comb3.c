@@ -14,8 +14,9 @@ for (nb1 = 0; nb1 <= 9; nb1++)
 for (nb2 = 0; nb2 <= 9; nb2++)
 {
 putchar('0' + nb1);
+putchar('0' + nb2);
+putchar(','); 
 }
-putchar(',');
 }
 return (0);
 }
