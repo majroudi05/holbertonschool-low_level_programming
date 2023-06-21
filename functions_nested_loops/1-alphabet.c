@@ -6,8 +6,11 @@
 *
 *Return: always 0(indication of succes)
 **/
-int main(void)
+void print_alphabet(void){
+char ch;
+for(ch = 'a' ; ch <= 'z' ; ch++)
 {
-print_alphabet();
+_putchar(ch);
+}
 return (0);
 }
