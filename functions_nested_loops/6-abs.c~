@@ -1,0 +1,19 @@
+#include"main.h"
+/**
+* _abs - computes the absolute value of an integer
+* @n: the integer to calculate the absolute value for
+*
+* Return: the absolute value of the input integer
+**/
+int _abs(int)
+{
+int n;
+if (n > 0)
+{
+_putchar('0' + n);
+}
+else
+{
+_putchar('0' - n);
+}
+}
