@@ -9,7 +9,7 @@
 int _islower(int c)
 {
 char ch;
-if (ch == ['a'..'z'] )
+if (ch <= 'a' && ch <= 'z')
 {
 _putchar('0' + 1);
 }
