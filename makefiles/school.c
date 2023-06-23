@@ -6,7 +6,7 @@
 **
 **Return: always 0 (indication of success)
 **/
-int print_school(void)
+void print_school(void)
 {
 printf("j#0000000000000000000000000000000000000\n");
 printf("j#000000000000000000@Q**g00000000000000\n");
@@ -33,5 +33,4 @@ printf("j#0000000000000@@+wgdA]+J00000000000000\n");
 printf("j#0000000000000k?qwgdC=]4#0000000000000\n");
 printf("j#00000000000000w]+]++qw#00000000000000\n");
 printf("\"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
-return (0);
 }
