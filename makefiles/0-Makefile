@@ -1,7 +1,7 @@
-all: myprogram
+all:myprogram
 
-myprogram: school.c
-    gcc -o myprogram school.c
+myprogram:school.c
+	gcc -o myprogram school.c
 
 clean:
-    rm -f myprogram
+	rm -f myprogram
