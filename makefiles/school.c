@@ -1,13 +1,12 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include"main.h"
 /**
-**main - Entry of the program
+**print_school - Entry of the program
 **
 **The program create a makefile
 **
 **Return: always 0 (indication of success)
 **/
-int main(void)
+int print_school(void)
 {
 printf("j#0000000000000000000000000000000000000\n");
 printf("j#000000000000000000@Q**g00000000000000\n");
