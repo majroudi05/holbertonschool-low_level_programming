@@ -1,7 +1,8 @@
 #include"main.c"
 /**
 *add - a function that adds two integers
-*@x and @y are the two integres of the function
+*@x: the first value
+*@y: the second value
 *Return: the sum of @x and @y
 **/
 int add(int x, int y)
