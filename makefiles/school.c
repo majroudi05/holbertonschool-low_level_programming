@@ -1,10 +1,9 @@
-#include"main.h"
+#include "main.h"
 /**
 **print_school - Entry of the program
 **
 **The program create a makefile
 **
-**Return: always 0 (indication of success)
 **/
 void print_school(void)
 {

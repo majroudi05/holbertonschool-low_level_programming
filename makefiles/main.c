@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* main - Entry point
+*main - Entry point
 *
-* Return: Always 
+*Return: Always 0 (indication of success)
 */
 int main(void)
 {
 print_school();
-return (EXIT_SUCCESS);
+return (0);
 }

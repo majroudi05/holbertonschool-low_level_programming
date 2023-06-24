@@ -1,7 +1,7 @@
-all:myprogram
+EXECUTABLE = school
 
-myprogram:school.c
-	gcc -o myprogram school.c
+all:
+	gcc -o $(EXECUTABLE) main.c school.c
 
 clean:
-	rm -f myprogram
+	rm -f $(EXECUTABLE)
