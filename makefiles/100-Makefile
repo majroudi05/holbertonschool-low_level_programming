@@ -1,21 +1,21 @@
 NAME = school
 CC = gcc
-SRC = main.c school.c
-OBJ = $(SRC:%.c=%.o)
 CFLAGS = -Wall -Werror -Wextra -pedantic
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
 all: $(NAME)
-
 $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $(OBJ)
-%.o: %.c
+%.o: %.c main.h
 	$(CC) $(CFLAGS) -c -o $@ $<
 clean:
-	@$(RM) *~ $(NAME)
+	$(RM) *~ $(NAME)
 oclean:
-	@$(RM) $(OBJ)
+	$(RM) $(OBJ)
 fclean: clean oclean
 re: fclean all
+.SUFFIXES:
 .PHONY: all clean oclean fclean re
-Dependencies for object files
-$(filter %.o,$(OBJ)): main.h
 $(MAKECMDGOALS): ;
+Remove dependency on $(CC) and $(CFLAGS)
+$(OBJ): main.h
