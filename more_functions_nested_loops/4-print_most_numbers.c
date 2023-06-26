@@ -14,7 +14,7 @@ continue;
 }
 else
 {
-putchar(i + 'O');
+putchar(i + '0');
 }
 }
 putchar('\n');
