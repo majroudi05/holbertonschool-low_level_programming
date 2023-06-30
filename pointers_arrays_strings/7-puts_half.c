@@ -23,7 +23,7 @@ j = i / 2;
 }
 for (; j < i; j++)
 {
-putchar(str[k]);
+putchar(str[j]);
 }
 putchar('\n');
 }
