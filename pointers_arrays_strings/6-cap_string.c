@@ -22,7 +22,8 @@ str[i] == '(' ||
 str[i] == ')' ||
 str[i] == '{' ||
 str[i] == '}')
-str[i + 1] = str[i +1] - ('a' - 'A');
+if (str[i] >= 'a' && str[i] <= 'z')
+str[i + 1] = str[i + 1] - ('a' - 'A');
 i++;
 }
 return (str);
