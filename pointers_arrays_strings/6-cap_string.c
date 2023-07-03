@@ -22,8 +22,10 @@ str[i] == '(' ||
 str[i] == ')' ||
 str[i] == '{' ||
 str[i] == '}')
-if (str[i] >= 'a' && str[i] <= 'z')
-str[i + 1] = str[i + 1] - ('a' - 'A');
+if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+{
+str[i + 1] -= 32;
+}
 i++;
 }
 return (str);
