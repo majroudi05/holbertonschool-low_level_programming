@@ -7,11 +7,21 @@
  **/
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int c = 0;
-while (*s != '\0' && strchr(accept, *s) != NULL)
+unsigned int n = 0;
+int r;
+while (*s)
 {
-c++;
+for (r = 0; accept[r]; r++)
+{
+if (*s == accept[r])
+{
+n++;
+break;
+}
+else if (accept[r + 1] == '\0')
+return (n);
+}
 s++;
 }
-return (c);
+return (n);
 }
