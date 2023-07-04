@@ -1,0 +1,17 @@
+#include"main.h"
+/**
+ *_strspn - function that gets the length oa a prefix
+ *@s: input value
+ *@accept: input value
+ *Return: the number of bytes of @s
+ **/
+unsigned int _strspn(char *s, char *accept)
+{
+unsigned int c = 0;
+while (*s != '\0' && _strchr(accept, *s) != NULL)
+{
+c++;
+s++;
+}
+return (c);
+}
