@@ -1,0 +1,10 @@
+#include"main.h"
+/**
+ *create_array - function that create an array of chars
+ *@size: the size of the array
+ *@c: the char to fill in the array
+ *Return: the array filled
+ **/
+char *create_array(unsigned int size, char c)
+{
+  
