@@ -19,7 +19,7 @@ if (a == NULL)
 {
 return (NULL);
 }
-for (int i = min; i <= max; i++)
+for (i = min; i <= max; i++)
 {
 a[i - min] = i;
 }
