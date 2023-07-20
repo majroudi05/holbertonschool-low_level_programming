@@ -1,4 +1,4 @@
-#ifndef size.h
-#define size.h
+#ifndef MY_MACRO_H
+#define MY_MACRO_H
 #define SIZE 1024
-#endif size.h
+#endif
