@@ -1,5 +1,7 @@
 #include"main.h"
 #include<stdlib.h>
+#include<string.h>
+#include<stdio.h>
 /**
  *_calloc - function that allocates memory
  *@nmemb: input value
