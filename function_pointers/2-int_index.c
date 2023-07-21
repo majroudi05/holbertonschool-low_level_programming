@@ -2,7 +2,7 @@
 /**
  *int_index - function that searches for int
  *@array: the array of int
- *@sizez: the array size
+ *@size: the array size
  *@cmp: the pointer of the function
  *Return: the index of the first element or -1
  **/
