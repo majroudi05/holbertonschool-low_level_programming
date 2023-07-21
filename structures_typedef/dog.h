@@ -1,5 +1,5 @@
 #ifdef MY_MACRO_H
-#defiine MY_MACRO_H
+#define MY_MACRO_H
 /**
  *struct dog - dog attributes
  *@name: name of the dog
@@ -12,3 +12,4 @@ struct dog
   float age;
   char *owner;
 };
+#endif
