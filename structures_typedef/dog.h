@@ -1,6 +1,5 @@
 #ifdef DOG_H
 #define DOG_H
-#define my_dog 1024
 /**
  *struct dog - dog attributes
  *@name: name of the dog
