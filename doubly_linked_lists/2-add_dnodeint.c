@@ -12,16 +12,12 @@ dlistint_t *current = *head;
 if (new == NULL)
 return (NULL);
 new->n = n;
-new->next = NULL;
-if (*head == NULL)
-{
 new->prev = NULL;
-*head = new;
-}
-while (-current->next != NULL)
+new->next = *head;
+if (*head != NULL)
 {
-current->next = new;
-new->perv = current;
-return (new);
+(*head)->perv = new;
 }
+*head = new;
+return (new);
 }
