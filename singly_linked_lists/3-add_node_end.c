@@ -11,7 +11,10 @@ list_t *new = malloc(sizeof(list_t));
 char *duplicate = strdup(str);
 list_t *current = *head;
 if (!new)
+{
+free(new);
 return (NULL);
+}
 new->str = duplicate;
 new->len = strlen(duplicate);
 new->next = NULL;
