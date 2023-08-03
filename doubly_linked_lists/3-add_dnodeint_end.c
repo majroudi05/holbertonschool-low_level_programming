@@ -1,3 +1,4 @@
+#include"lists.h"
 /**
 *add_dnodeint_end - Function add a node in the end of list
 *@head: linked list
