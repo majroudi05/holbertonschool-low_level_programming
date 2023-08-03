@@ -17,7 +17,7 @@ new->len = strlen(duplicate);
 new->next = NULL;
 if (*head == NULL)
 {
-*haed = new;
+*head = new;
 return (new);
 }
 while (current->next)
