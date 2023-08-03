@@ -11,6 +11,11 @@ char *duplicate = strdup(str);
 list_t *new_node = malloc(sizeof(list_t));
 if (new_node == NULL)
 return (NULL);
+if (duplicate == NULL)
+{
+free(new_node);
+return (NULL);
+}
 new_node->str = duplicate;
 new_node->len = strlen(duplicate);
 new_node->next = *head;
