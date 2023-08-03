@@ -16,7 +16,7 @@ new->prev = NULL;
 new->next = *head;
 if (*head != NULL)
 {
-(*head)->perv = new;
+(*head)->prev = new;
 }
 *head = new;
 return (new);
