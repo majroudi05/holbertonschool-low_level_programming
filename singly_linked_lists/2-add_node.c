@@ -9,27 +9,11 @@ list_t *add_node(list_t **head, const char *str)
 {
 char *duplicate = strdup(str);
 list_t *new_node = malloc(sizeof(list_t));
-int i = 0;
-if (str == NULL)
-return (NULL);
 if (new_node == NULL)
-{
 return (NULL);
-}
-if (duplicate == NULL)
-{
-free(new_node);
-return (NULL);
-}
-else
-{
-for (i = 0; duplicate[i]; i++)
-{
 new_node->str = duplicate;
-new_node->len = i + 1;
+new_node->len = strlen(duplicate);
 new_node->next = *head;
-}
-}
 *head = new_node;
 return (new_node);
 }
