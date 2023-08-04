@@ -26,5 +26,5 @@ else
 i++;
 temp = temp->next;
 }
-return (h);
+return (temp);
 }
