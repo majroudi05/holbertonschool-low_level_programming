@@ -1,10 +1,10 @@
  #include"main.h"
- /**
-  * get_bit - returns the value of a bit at a given index
-  * @n: input value
-  * @index: input value
-  * Return: the value of the bit at index
- **/
+/**
+ *get_bit -  unction that returns the value of a bit at a given index
+ * @n: input value
+ * @index: input value
+ * Return: 1 or -1
+**/
 int get_bit(unsigned long int n, unsigned int index)
 {
 int bit;
