@@ -1,4 +1,4 @@
-#include"main.h"
+#include"lists.h"
 /**
 *sum_dlistint - Function that return teh sum of all data
 *@head: the head pointer on the linked list
