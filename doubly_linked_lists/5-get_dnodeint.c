@@ -7,12 +7,13 @@
 **/
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-dlistint_t *node;
+dlistint_t *node = NULL;
 unsigned int i = 0;
 while (head != NULL)
 if (i == index)
 {
 node = head;
+break;
 }
 else
 {
