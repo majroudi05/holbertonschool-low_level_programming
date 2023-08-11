@@ -13,7 +13,9 @@ size_t r;
 char *buf;
 f = open(filename, O_RDONLY);
 if (f == -1)
+{
 return (0);
+}
 buf = malloc(sizeof(char) * letters);
 r = read(f, buf, letters);
 w = write(STDOUT_FILENO, buf, r);
